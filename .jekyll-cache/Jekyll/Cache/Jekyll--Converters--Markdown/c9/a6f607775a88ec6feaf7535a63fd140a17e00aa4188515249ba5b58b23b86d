@@ -1,0 +1,26 @@
+I"�<h2 id="nonlinear-statistical-modeling-for-high-dimensional-and-small-sample-data">Nonlinear Statistical Modeling for High-Dimensional and Small Sample Data</h2>
+
+<h3 id="presenter--講演者">Presenter | 講演者</h3>
+
+<h4 id="makoto-yamada--山田誠">Makoto Yamada | 山田誠</h4>
+
+<p>Team Leader at RIKEN AIP, Associate Professor at Kyoto University | 理研AIPチームリーダー，京都大学准教授</p>
+
+<h3 id="biography--略歴">Biography | 略歴</h3>
+
+<p>Makoto Yamada received the PhD degree in statistical science from The Graduate University for Advanced Studies (SOKENDAI, The Institute of Statistical Mathematics), Tokyo, in 2010. He has held positions as a postdoctoral fellow with the Tokyo Institute of Technology from 2010 to 2012, as a research associate with NTT Communication Science Laboratories from 2012 to 2013, as a research scientist with Yahoo Labs from 2013 to 2015, and as an assistant professor with Kyoto University from 2015 to 2017. Currently, he is a team leader at RIKEN AIP and an associate professor at Kyoto University. His research interests include machine learning and its application to biology, natural language processing, and computer vision. He published more than 30 research papers in premium conferences and journals and won the WSDM 2016 Best Paper Award.</p>
+
+<h3 id="abstract--概要">Abstract | 概要</h3>
+
+<p>Feature selection/variable selection is an important machine learning problem, and it is widely used for various types of applications such as gene selection from microarray data, document categorization, and prosthesis control, to name a few. The feature selection problem is a fundamental and traditional machine learning problem, and thus there exist many methods including the least absolute shrinkage and selection operator (Lasso). However, there are a few methods that can select features from large and ultra high-dimensional data (more than a million features) in a nonlinear way. In this talk, we introduce several nonlinear feature selection methods for high-dimensional and small sample data including HSIC Lasso [1,2,3], kernel PSIs [4,5,6,7], and the feature selection networks [8]. In addition to the research talk, I will briefly introduce how to prepare papers for top conferences.</p>
+
+<p>Reference:
+[1] Makoto Yamada, Wittawat Jitkrittum, Leonid Sigal, Eric P. Xing, Masashi Sugiyama: High-Dimensional Feature Selection by Feature-Wise Kernelized Lasso. Neural Comput. 26(1): 185-207 (2014)
+[2] Héctor Climente-González, Chloé-Agathe Azencott, Samuel Kaski, Makoto Yamada: Block HSIC Lasso: model-free biomarker detection for ultra-high dimensional data. Bioinform. 35(14): i427-i435 (2019)
+[3] Benjamin Poignard, Makoto Yamada: Sparse Hilbert-Schmidt Independence Criterion Regression. AISTATS 2020: 538-548
+[4] Makoto Yamada, Yuta Umezu, Kenji Fukumizu, Ichiro Takeuchi: Post Selection Inference with Kernels. AISTATS 2018: 152-160
+[5] Makoto Yamada, Denny Wu, Yao-Hung Hubert Tsai, Hirofumi Ohta, Ruslan Salakhutdinov, Ichiro Takeuchi, Kenji Fukumizu: Post Selection Inference with Incomplete Maximum Mean Discrepancy Estimator. ICLR 2019 
+[6] Jen Ning Lim, Makoto Yamada, Bernhard Schölkopf, Wittawat Jitkrittum: Kernel Stein Tests for Multiple Model Comparison. NeurIPS 2019: 2240-2250
+[7] Jen Ning Lim, Makoto Yamada, Wittawat Jitkrittum, Yoshikazu Terada, Shigeyuki Matsui, Hidetoshi Shimodaira: More Powerful Selective Kernel Tests for Feature Selection. AISTATS 2020: 820-830
+[8]  Dinesh Singh, Hector Climente-Gonzalez, Mathis Petrovich, Eiryo Kawakami and Makoto Yamada: FsNet: Feature Selection Network on High-dimensional Biological Data, Machine Learning for Computational Biology (MLCB workshop 2020)</p>
+:ET

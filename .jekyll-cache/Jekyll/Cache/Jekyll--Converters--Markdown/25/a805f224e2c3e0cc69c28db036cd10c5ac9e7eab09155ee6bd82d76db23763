@@ -1,0 +1,20 @@
+I"�	<h2 id="randomized-strategies-for-robust-combinatorial-optimization">Randomized Strategies for Robust Combinatorial Optimization</h2>
+
+<h3 id="presenter--講演者">Presenter | 講演者</h3>
+
+<h4 id="hanna-sumita--澄田範奈">Hanna Sumita | 澄田範奈</h4>
+
+<p>Tokyo Institute of Technology | 東京工業大学</p>
+
+<h3 id="biography--略歴">Biography | 略歴</h3>
+
+<p>I am an associate professor (lecturer) at Tokyo Institute of Technology from April 2020. Before this, I was an assistant professor at Tokyo Metropolitan University, and a project researcher of JST, ERATO Kawarabayashi Large Graph Project at National Institute of Informatics. I obtained my Ph.D. from University of Tokyo in 2015.</p>
+
+<p>2015年3月，東京大学大学院情報理工学系研究科 博士（情報理工学）取得．国立情報学研究所特任研究員，首都大学東京（現　東京都立大学）助教を経て，2020年4月より，東京工業大学情報理工学院 講師．</p>
+
+<h3 id="abstract--概要">Abstract | 概要</h3>
+
+<p>We aim to solve combinatorial optimization problems under uncertainty on objective functions. The problem is to maximize the minimum function value between given candidates of an objective function. This problem can be regarded as the problem of computing an equilibrium in a two-person zero-sum game. Existing research mainly focuses on a deterministic solution, and few papers work on a randomized one. In this talk, we propose two frameworks for computing an optimal randomized solution based on linear programming and the multiplicative weight update method. We also demonstrate that these frameworks yield approximation algorithms for important classes. This is joint work with Yasushi Kawase.</p>
+
+<p>目的関数を複数もつ組合せ最適化において最小の関数値を最大化する問題は，理論と応用の両方で重要である．この問題はゲーム的に捉えると均衡解の計算に対応する．既存研究は主に決定的な解の計算を議論しており．確率的な解に関する研究は数少ない．本講演では，河瀬康志（東京大学）との共同研究に基づき，線形計画法と乗算型重み更新法に基づく2種類のアルゴリズム設計フレームワークを提案する．また，提案フレームワークを用いて問題の重要な部分クラスに対する近似アルゴリズムも与える．</p>
+:ET
