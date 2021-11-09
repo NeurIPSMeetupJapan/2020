@@ -11,7 +11,7 @@ copyright: NeurIPS Meetup Japan
 description: >- # this means to ignore newlines until "baseurl:"
     Neural Information Processing Systems Official Meetup in Japan.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/2020" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
