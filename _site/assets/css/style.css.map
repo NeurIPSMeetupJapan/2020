@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/style.scss",
+		"_sass/font.scss",
+		"_sass/layout.scss"
+	],
+	"sourcesContent": [
+		"@import \"style\";",
+		"@charset \"utf-8\";\n\nhtml {\n  scroll-behavior: smooth;\n}\n\n@import\n  \"font\",\n  \"layout\"\n;\n",
+		"$sans-serif: \n  -apple-system, BlinkMacSystemFont,\n  \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ ProN W3\", \"Hiragino Sans\", \"Meiryo\", \"メイリオ\", \"Noto Sans CJK JP\",\n  \"Roboto\", \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", Arial,\n  sans-serif !default;\n\nbody {\n  font-family: $sans-serif;\n}\n",
+		".head-image {\n  height: 100vh;\n  min-height: 400px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n.content {\n  h2 {\n    font-size: 30px;\n    font-weight: 300;\n    padding-top: 96px;\n    margin-top: -66px;\n  }\n\n  h3 {\n    font-size: 20px;\n    font-weight: 300;\n    margin-top: 20px;\n  }\n}\n\n\n.invited-talk {\n  background-color: lighten(#c0a2c7, 10%);\n  &:hover {\n    background-color: #c0a2c7;\n  }\n}\n\n.author-talk {\n  background-color: lighten(#dcdddd, 10%);\n  &:hover {\n    background-color: #dcdddd;\n  }\n}\n\n.break {\n  background-color: lighten(#eebbcb, 10%);\n  &:hover {\n    background-color: #eebbcb;\n  }\n}\n\n.activity {\n  background-color: lighten(#abced8, 10%);\n  &:hover {\n    background-color: #abced8;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": ";ACEA,AAAA,IAAI,CAAC,EACH,eAAe,EAAE,MAAM,GACxB;;ACED,AAAA,IAAI,CAAC,EACH,WAAW,EANX,aAAa,EAAE,kBAAkB,EACjC,2BAA2B,EAAE,sBAAsB,EAAE,eAAe,EAAE,QAAQ,EAAE,UAAU,EAAE,kBAAkB,EAC9G,QAAQ,EAAE,UAAU,EAAE,gBAAgB,EAAE,eAAe,EAAE,KAAK,EAC9D,UAAU,GAIX;;ACRD,AAAA,WAAW,CAAC,EACV,MAAM,EAAE,KAAK,EACb,UAAU,EAAE,KAAK,EACjB,eAAe,EAAE,KAAK,EACtB,mBAAmB,EAAE,MAAM,EAC3B,iBAAiB,EAAE,SAAS,GAC7B;;AAED,AACE,QADM,CACN,EAAE,CAAC,EACD,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,GAAG,EAChB,WAAW,EAAE,IAAI,EACjB,UAAU,EAAE,KAAK,GAClB;;AANH,AAQE,QARM,CAQN,EAAE,CAAC,EACD,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,IAAI,GACjB;;AAIH,AAAA,aAAa,CAAC,EACZ,gBAAgB,EAAU,OAAO,GAIlC;;AALD,AAEE,aAFW,CAET,KAAK,CAAC,EACN,gBAAgB,EAAE,OAAO,GAC1B;;AAGH,AAAA,YAAY,CAAC,EACX,gBAAgB,EAAU,OAAO,GAIlC;;AALD,AAEE,YAFU,CAER,KAAK,CAAC,EACN,gBAAgB,EAAE,OAAO,GAC1B;;AAGH,AAAA,MAAM,CAAC,EACL,gBAAgB,EAAU,OAAO,GAIlC;;AALD,AAEE,MAFI,CAEF,KAAK,CAAC,EACN,gBAAgB,EAAE,OAAO,GAC1B;;AAGH,AAAA,SAAS,CAAC,EACR,gBAAgB,EAAU,OAAO,GAIlC;;AALD,AAEE,SAFO,CAEL,KAAK,CAAC,EACN,gBAAgB,EAAE,OAAO,GAC1B"
+}
